@@ -1,7 +1,7 @@
 #include <linux/fs.h>
 #include <linux/module.h>
 #include <linux/init.h>
-#include <linux/device.h>  // Добавьте этот заголовочный файл
+#include <linux/device.h>  
 
 static int __init init(void);
 static void __exit cleanup(void);
